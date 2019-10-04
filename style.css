@@ -1,0 +1,13 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+}
+
+.wrapper > div {
+  background: #cccccc;
+  padding: 15px;
+}
+
+.wrapper > div:nth-child(odd) {
+  background: #aaa;
+}
